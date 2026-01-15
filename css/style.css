@@ -137,3 +137,56 @@ footer{
 @media(max-width:700px){
     .galeria img{height:180px;}
 }
+/* CARTÃO DIGITAL */
+.cartao-digital{
+    text-align:center;
+}
+
+.cartao{
+    max-width:380px;
+    margin:0 auto;
+    background:linear-gradient(135deg,#ffb300,#ff6f00);
+    color:white;
+    padding:30px;
+    border-radius:25px;
+    box-shadow:0 20px 40px rgba(0,0,0,.3);
+}
+
+.logo-cartao{
+    width:120px;
+    margin-bottom:15px;
+}
+
+.cartao h3{
+    margin:10px 0;
+    font-size:24px;
+}
+
+.botoes-cartao{
+    display:flex;
+    gap:15px;
+    justify-content:center;
+    margin:20px 0;
+}
+
+.botoes-cartao a{
+    background:black;
+    color:white;
+    padding:10px 18px;
+    border-radius:20px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.qr{
+    width:140px;
+    margin-top:15px;
+    background:white;
+    padding:10px;
+    border-radius:15px;
+}
+
+/* MODO ESCURO */
+.dark .cartao{
+    background:linear-gradient(135deg,#333,#111);
+}
