@@ -137,56 +137,63 @@ footer{
 @media(max-width:700px){
     .galeria img{height:180px;}
 }
-/* CARTÃO DIGITAL */
+/* CARTÃO DIGITAL AJUSTADO */
 .cartao-digital{
     text-align:center;
+    padding-top:30px;
 }
 
 .cartao{
-    max-width:380px;
+    max-width:320px;   /* tamanho de cartão */
     margin:0 auto;
     background:linear-gradient(135deg,#ffb300,#ff6f00);
     color:white;
-    padding:30px;
-    border-radius:25px;
-    box-shadow:0 20px 40px rgba(0,0,0,.3);
+    padding:25px 20px;
+    border-radius:22px;
+    box-shadow:0 15px 35px rgba(0,0,0,.25);
 }
 
 .logo-cartao{
-    width:120px;
-    margin-bottom:15px;
+    width:90px;   /* logo menor */
+    margin-bottom:10px;
 }
 
 .cartao h3{
-    margin:10px 0;
-    font-size:24px;
+    font-size:20px;
+    margin:8px 0;
+}
+
+.cartao p{
+    font-size:14px;
+    margin:4px 0;
 }
 
 .botoes-cartao{
     display:flex;
-    gap:15px;
+    gap:10px;
     justify-content:center;
-    margin:20px 0;
+    margin:15px 0;
 }
 
 .botoes-cartao a{
     background:black;
     color:white;
-    padding:10px 18px;
-    border-radius:20px;
+    padding:8px 14px;
+    border-radius:18px;
     text-decoration:none;
-    font-weight:bold;
+    font-size:13px;
 }
 
 .qr{
-    width:140px;
-    margin-top:15px;
+    width:100px;   /* QR menor */
+    margin-top:12px;
     background:white;
-    padding:10px;
-    border-radius:15px;
+    padding:8px;
+    border-radius:12px;
 }
 
 /* MODO ESCURO */
 .dark .cartao{
     background:linear-gradient(135deg,#333,#111);
 }
+
