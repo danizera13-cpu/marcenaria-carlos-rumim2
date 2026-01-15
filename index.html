@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Marcenaria e Vidraçaria Carlos Rumim</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <img src="imagens/logoempresa.png" class="logo">
+    <h1>Marcenaria & Vidraçaria Carlos Rumim</h1>
+    <p>Patrocínio - MG</p>
+
+    <a class="btn" href="https://wa.me/553491386312" target="_blank">
+        WhatsApp
+    </a>
+
+    <button class="dark-btn" onclick="toggleDark()">Modo escuro</button>
+</header>
+
+<section>
+    <h2>Diferenciais</h2>
+    <ul class="diferenciais">
+        <li>Projetos sob medida</li>
+        <li>Acabamento premium</li>
+        <li>Vidros temperados</li>
+        <li>Atendimento em Patrocínio MG</li>
+    </ul>
+</section>
+
+<!-- MARCENARIA -->
+<section>
+    <h2>Marcenaria</h2>
+    <div class="galeria">
+        <img src="imagens/cozinha.jpg" onclick="abrirImagem(this)">
+        <img src="imagens/sala.jpg" onclick="abrirImagem(this)">
+        <img src="imagens/quarto.jpg" onclick="abrirImagem(this)">
+        <img src="imagens/banheiro.jpg" onclick="abrirImagem(this)">
+    </div>
+</section>
+
+<!-- VIDRAÇARIA -->
+<section>
+    <h2>Vidraçaria</h2>
+    <div class="galeria">
+        <img src="imagens/box.jpg" onclick="abrirImagem(this)">
+        <img src="imagens/janelas-com-vidro.jpg" onclick="abrirImagem(this)">
+    </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section>
+    <h2>Depoimentos de Clientes</h2>
+
+    <div class="depoimentos">
+        <div class="card">
+            <p>“Trabalho impecável, cozinha ficou perfeita!”</p>
+            <strong>— João P.</strong>
+        </div>
+
+        <div class="card">
+            <p>“Vidros de ótima qualidade e instalação rápida.”</p>
+            <strong>— Maria S.</strong>
+        </div>
+
+        <div class="card">
+            <p>“Atendimento excelente e acabamento de primeira.”</p>
+            <strong>— Ana R.</strong>
+        </div>
+    </div>
+</section>
+
+<section class="mapa">
+    <h2>Onde Estamos</h2>
+    <iframe 
+        src="https://www.google.com/maps?q=Patrocínio+MG&output=embed"
+        loading="lazy">
+    </iframe>
+</section>
+
+<footer>
+    <p>© 2026 - Carlos Rumim</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
